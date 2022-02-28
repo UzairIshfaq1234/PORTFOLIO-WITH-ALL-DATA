@@ -1,0 +1,1172 @@
+*
+{
+    padding: 0px;
+margin: 0px;
+box-sizing: border-box;
+
+}
+
+
+/* -------------NAVIGATION BAR STYLING------------------ */
+.navigation
+{
+    padding: 20px;
+    background-color: #FE4C6F;
+    color: rgb(255, 255, 255);
+}
+.navbar
+{
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+
+
+}
+.navitems
+{
+    display: flex;
+    list-style: none;
+    padding-left: 200px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+.navitems li
+{
+padding-left: 14px;
+padding-right: 14px;
+cursor: pointer;
+border-radius: 4px;
+font-weight: bold;
+transition: all;
+transition-duration: 1s;
+padding-bottom: 5px;
+color: white;
+
+}
+.navitems a
+{
+    text-decoration: none;
+    color: rgb(240, 234, 234);
+}
+.navitems li:hover
+{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+/* ##########################################################################
+######################################################################### */
+/* -------------front page STYLING------------------ */
+
+.iamge
+{
+    /* width: 100%; */
+    height: 89vh;
+    display: flex;
+    background-color: #ffffff;
+    color: white;
+  
+}
+.text_front
+{
+    padding-top: 100px;
+    padding-left: 20px;
+}
+.iam
+{
+    /* color: #FE8529; */
+    color: #FE4C6F;
+    font-size: 65px;
+    font-family: 'Open Sans', sans-serif;
+
+    text-shadow: 1px 1px 5px #FE4C6F,1px 1px 1px #FE4C6F;
+}
+.uzairname
+{
+    color: #00000085;
+    text-shadow: 1px 1px 5px #000000,1px 1px 1px #000000;
+    font-size: 65px;
+    font-family: 'Open Sans', sans-serif;
+}
+.front_data
+{
+margin-top: 10px;
+font-size: 15px;
+width: 750px;
+color: rgb(201, 115, 115);
+font-weight: bold;
+font-family: 'Open Sans', sans-serif;
+}
+.startme
+{
+    background-color: #FE4C6F;
+    border:none;
+    color: rgb(255, 255, 255);
+    width: 200px;
+    height: 35px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:bolder ;
+    font-size: 20px;
+    margin-top: 17px;
+    cursor: pointer;
+    transition: all;
+    transition-duration: 1s;
+
+}
+.btn_firstpage
+{
+    text-decoration: none;
+}
+.startme:hover
+{
+    box-shadow: 1px 1px 20px #FE4C6F,1px 1px 20px #FE4C6F;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    border: 3px solid rgb(255, 255, 255);
+}
+.slideiamg_1
+{
+    width: 100%;
+    height: 80%;
+    border-radius: 50%;
+    margin-top: 30px;
+    opacity: 0.9 rgb(250, 11, 11);
+
+}
+/* ##########################################################################
+######################################################################### */
+/* ----------------------second intro secton PAGE ------------ */
+.data_for_front_page
+{
+    background-color: #FE4C6F;
+    color: rgb(255, 255, 255);
+    height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+
+
+}
+.uzairimg
+{
+    width: 200px;
+    height: 200px;
+    border-radius:50%;
+    transition: all;
+    transition-duration: 1s;
+    cursor: pointer;
+}
+.uzairimg:hover
+{
+    box-shadow: 1px 1px 40px rgb(0, 0, 0);
+    width: 220px;
+    height: 220px;
+}
+
+.name_heading
+{
+    padding-top: 10px;
+    font-size: 39px;
+    font-weight: bolder;
+    text-align: center;
+    text-shadow: 1px 1px 5px #fffbfb;
+
+}
+.slide_1_section1
+{
+
+    margin-top: 50px;
+    text-align: center;
+
+}
+.heading_section2
+{
+    font-size: 30px;
+}
+.intro_data
+{
+ padding-top: 20px;
+ color: #ffffff;
+ font-weight: bolder;
+
+}
+.intro_data2
+{
+ padding-top: 20px;
+ color: #ffffff;
+ font-weight: bolder;
+
+}
+
+.cms
+{
+    color: rgb(132, 242, 250);
+    text-shadow: 1px 1px 5px rgb(132, 242, 250);
+}
+/* ##########################################################################
+######################################################################### */
+/* ----------------------third education secton PAGE ------------ */
+.uzairs_personal_data
+{
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 80px;
+    margin-bottom: 30px;
+
+}
+.uzair_edu_head
+{
+    color: #000000;
+    padding-top: 10px;
+    font-size: 49px;
+    font-weight: bolder;
+    text-shadow: 1px 1px 5px #000000;
+}
+.matric_head
+{
+    color: #FE4C6F;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.martic_data
+{
+    color: #000000e1;
+    font-size: 17px;
+    font-weight:bold;
+}
+.martic_data1
+{
+    color: #FE4C6F;
+    font-size: 17px;
+    font-weight:bold;
+}
+/* INTERMEDIATE SECT */
+.intermediate
+{
+  margin-top: 20px;
+}
+.faazia
+{
+    display: flex;
+}
+.fazaia_img_1
+{
+    margin-left: 600px;
+}
+
+/* bacherlor aect */
+.bacherlor
+{
+    margin-top: 50px;
+
+}
+.matric_head2
+{
+
+    color: #000000;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.martic_data4
+{
+    color: #127029;
+
+    font-size: 23px;
+    font-weight:bold;
+}
+.lahore_garroison
+{
+    display: flex;
+}
+.lgu_img_1
+{
+    width: 200px;
+    height: 200px;
+    margin-left: 600px;
+    margin-top: 50px;
+
+}
+/* ##########################################################################
+######################################################################### */
+/* ----------------------forth achivemnets secton PAGE ------------ */
+.achivement_section
+{
+    background-color: #FE4C6F;
+    color: rgb(255, 255, 255);
+    height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+
+
+
+
+
+}
+.achivemt_1
+{
+    margin-left: 80px;
+}
+.uzair_ach_head
+{
+    color: #ffffff;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 49px;
+    font-weight: bolder;
+    text-shadow: 1px 1px 5px #fffcfc;
+
+
+}
+.first_ach_1
+{
+    margin-top: 80px;
+    background-color: white;
+    width: 240px;
+    height: 300px;
+    margin-left: 60px;
+    color: #000000;
+    font-family: 'Open Sans', sans-serif;
+    box-shadow: 1px 1px 25px rgb(92, 88, 88);
+
+}
+.oop_python
+{
+    text-align: center;
+    color: #FE4C6F;
+    font-weight: bolder;
+}
+.card1python
+{
+    width: 70px;
+    height: 75px;
+    margin-top: 30px;
+    margin-left: 95px;
+}
+.check_cert
+{
+    width: 140px;
+    height: 30px;
+    border: none;
+    background-color: #FE4C6F;
+    margin-left: 50px;
+    margin-top: 20px;
+    color: #fffbfb;
+    font-weight: bolder;
+    font-family: 'Open Sans', sans-serif;
+    transition: all;
+    transition-duration: 1s;
+    cursor: pointer;
+}
+.certa
+{
+    text-decoration: none;
+    color: #fffbfb;
+}
+.check_cert:hover
+{
+    box-shadow: 1px 1px 10px #FE4C6F,1px 1px 10px #FE4C6F;
+    border-left:3px solid #fffbfb;
+    border-right:3px solid #fffbfb;
+
+}
+.first_ach_2
+{
+    margin-top: 80px;
+    background-color: white;
+    width: 240px;
+    height: 300px;
+    margin-left: 60px;
+    box-shadow: 1px 1px 25px rgb(92, 88, 88);
+
+}.first_ach_3
+{
+    margin-top: 80px;
+    background-color: white;
+    width: 240px;
+    height: 300px;
+    margin-left: 60px;
+    box-shadow: 1px 1px 25px rgb(92, 88, 88);
+
+}.first_ach_4
+{
+    margin-top: 80px;
+    background-color: white;
+    width: 240px;
+    height: 300px;
+    margin-left: 60px;
+    box-shadow: 1px 1px 25px rgb(92, 88, 88);
+
+}
+.cards_achivements
+{
+    display: flex;
+}
+.certified_frm
+{
+    color: #FE4C6F;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.corcera
+{
+    color:royalblue;
+    text-align: center;
+    font-weight: bold;
+    font-size: 19px;
+    margin-top: 10px;
+}
+.card1python2
+{
+    width: 150px;
+    height: 75px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+/* ##########################################################################
+######################################################################### */
+/* ----------------------fifth project secton PAGE ------------ */
+.projects_section
+{
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    height: 120vh;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 80px;
+}
+.uzair_proj_head
+{
+    color: #ffffff;
+    padding-top: 20px;
+    font-size: 49px;
+    font-weight: bolder;
+    text-shadow: 1px 1px 10px #ffffff;
+}
+.stylingseting_pro
+{
+    margin-top: 75px;
+}
+.cpp_imag2
+{
+    width: 80px;
+    height: 80px;
+}
+.cpp_project
+{
+    display: flex;
+    margin-top: 30px;
+}
+.cpp_data2
+{
+    font-size: 18px;
+}
+.cpp_data_3
+{
+    display: flex;
+}
+.head_cpp2
+{
+    color: #FE4C6F;
+}
+.check_project
+{
+    border: none;
+    width: 140px;
+    height: 35px;
+    margin-left: 300px;
+    background-color: #FE4C6F;
+    color: #fffbfb;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+    transition: all;
+    transition-duration: 1.3s;
+    box-shadow: 1px 1px 10px #FE4C6F;
+    border-radius: 2px;
+
+}
+.seting
+{
+    margin-left: 355px;
+}
+.seting2
+{
+    margin-left: 295px;
+}
+.seting21
+{
+    margin-left: 335px;
+
+}
+
+.check_project:hover
+{
+    background-color: #fffbfb;
+    color: #000000;
+    box-shadow: 1px 1px 10px #ffffff,1px 1px 10px #ffffff;
+
+}
+
+.btn_project:hover
+{
+    color: #000000;
+
+}
+.btn_project
+{
+    text-decoration: none;
+    color: #ffffff;
+}
+.btn_project_watch2
+{
+    margin-left: 40px;
+}
+.cpp_imag3
+{
+    width: 150px;
+    height: 100px;
+    margin-left: -70px;
+}
+/* ##########################################################################
+######################################################################### */
+/* ----------------------sixes skill secton PAGE ------------ */
+
+.Skills_section
+{
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    height: 120vh;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 80px;
+}
+.uzair_skils_head
+{
+    color: #000000;
+    padding-top: 20px;
+    font-size: 49px;
+    font-weight: bolder;
+    text-shadow: 1px 1px 25px #000000;
+}
+.Skills_12
+{
+    display: flex;
+}
+.container_html
+{
+    background-color: #000000;
+    width: 1000%;
+    border-radius: 10px;
+    height: 15px;
+}
+.skill_html
+{
+    background-color: #FE4C6F;
+    width: 90%;
+    border-radius: 10px;
+text-align: right;
+padding-right: 10px;
+color: #fffbfb;
+font-weight: bolder;
+font-family: 'Open Sans', sans-serif;
+height: 15px;
+font-size: 11px;
+font-weight: bolder;
+
+
+
+}
+.Cpp_bar
+{
+    margin-bottom: 5px;
+    font-weight: bolder;
+    font-size: 19px;
+    margin-left: 100px;
+}
+.skiils_data
+{
+    width: 400px;
+    margin-top: 20px;
+}
+.progress_bars
+{
+    margin-left: 100px;
+
+}
+/* #############################33 */
+.style_save_bar112
+{
+    margin-top: 30px;
+}
+.container_py
+{
+    background-color: #000000;
+    width: 1000%;
+    border-radius: 10px;
+    height: 15px;
+}
+.skill_py
+{
+    background-color: #FE4C6F;
+    width: 97%;
+    border-radius: 10px;
+text-align: right;
+padding-right: 10px;
+color: #fffbfb;
+font-weight: bolder;
+font-family: 'Open Sans', sans-serif;
+height: 15px;
+font-size: 11px;
+font-weight: bolder;
+
+
+}
+
+.container_jv
+{
+    background-color: #000000;
+    width: 1000%;
+    border-radius: 10px;
+    height: 15px;
+}
+.skill_jv
+{
+    background-color: #FE4C6F;
+    width: 60%;
+    border-radius: 10px;
+text-align: right;
+padding-right: 10px;
+color: #fffbfb;
+font-weight: bolder;
+font-family: 'Open Sans', sans-serif;
+height: 15px;
+font-size: 11px;
+font-weight: bolder;
+
+
+}
+.container_html
+{
+    background-color: #000000;
+    width: 1000%;
+    border-radius: 10px;
+    height: 15px;
+}
+.skill_htm
+{
+    background-color: #FE4C6F;
+    width: 80%;
+    border-radius: 10px;
+text-align: right;
+padding-right: 10px;
+color: #fffbfb;
+font-weight: bolder;
+font-family: 'Open Sans', sans-serif;
+height: 15px;
+font-size: 11px;
+font-weight: bolder;
+
+
+}
+
+.container_jv
+{
+    background-color: #000000;
+    width: 1000%;
+    border-radius: 10px;
+    height: 15px;
+}
+.skill_jv
+{
+    background-color: #FE4C6F;
+    width: 70%;
+    border-radius: 10px;
+text-align: right;
+padding-right: 10px;
+color: #fffbfb;
+font-weight: bolder;
+font-family: 'Open Sans', sans-serif;
+height: 15px;
+font-size: 11px;
+font-weight: bolder;
+
+
+}
+.Cpp_bar212
+{
+    margin-bottom: 5px;
+    font-weight: bolder;
+    font-size: 15px;
+    margin-left: 100px;
+}
+.container_cs
+{
+    background-color: #000000;
+    width: 1000%;
+    border-radius: 10px;
+    height: 15px;
+}
+.skill_cs
+{
+    background-color: #FE4C6F;
+    width: 85%;
+    border-radius: 10px;
+text-align: right;
+padding-right: 10px;
+color: #fffbfb;
+font-weight: bolder;
+font-family: 'Open Sans', sans-serif;
+height: 15px;
+font-size: 11px;
+font-weight: bolder;
+
+
+}
+.container_gs
+{
+    background-color: #000000;
+    width: 1000%;
+    border-radius: 10px;
+    height: 15px;
+}
+.skill_gs
+{
+    background-color: #28bd14;
+    width: 93%;
+    border-radius: 10px;
+text-align: right;
+padding-right: 10px;
+color: #fffbfb;
+font-weight: bolder;
+font-family: 'Open Sans', sans-serif;
+height: 15px;
+font-size: 11px;
+font-weight: bolder;
+
+
+}
+.container_ms
+{
+    background-color: #000000;
+    width: 1000%;
+    border-radius: 10px;
+    height: 15px;
+}
+.skill_ms
+{
+    background-color: #28bd14;
+    width: 88%;
+    border-radius: 10px;
+text-align: right;
+padding-right: 10px;
+color: #fffbfb;
+font-weight: bolder;
+font-family: 'Open Sans', sans-serif;
+height: 15px;
+font-size: 11px;
+font-weight: bolder;
+
+
+}
+.skills_btn
+{
+    background-color: #ff2e58;
+    border: none;
+    width: 140px;
+    height: 40px;
+    color: rgb(255, 255, 255);
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+    transition: all;
+    transition-duration: 1s;
+    box-shadow: 1px 1px 10px #ff2e58;
+
+}
+.skills_btn:hover
+{
+    background-color: #000000;
+    color: white;
+    box-shadow: 1px 1px 10px #000000,1px 1px 10px #000000;
+
+}
+/* ##########################################################################
+######################################################################### */
+/* ----------------------sixth contact me secton PAGE ------------ */
+.contact_section
+{
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    height: 140vh;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 80px;
+}
+.uzair_skils_head
+{
+    color: #000000;
+    padding-top: 20px;
+    font-size: 49px;
+    font-weight: bolder;
+    text-shadow: 1px 1px 25px #000000;
+}
+.getintouch
+{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 26px;
+
+}
+.contact_us_form
+{
+    background-color: #ff2e58;
+    height: 560px;
+    width: 300px;
+    padding-left: 20px;
+    margin-top: 90px;
+    /* border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px; */
+
+}
+.locationicon
+{
+ width: 18px;
+ height: 30px;
+}
+.lcons_data
+{
+    display: flex;
+    padding-top: 30px;
+    
+
+   
+}
+.pindata
+{
+    padding-left: 20px;
+    font-family: 'Open Sans', sans-serif;
+font-size: 15px;
+padding-top: -20px;
+cursor: pointer;
+}
+
+.locationicon2
+{
+ width: 28px;
+ height: 30px;
+}
+.locationicon3
+{
+ width: 28px;
+ height: 30px;
+}
+.locationicon4
+{
+ width: 28px;
+ height: 30px;
+}
+
+
+.pindata4
+{
+    padding-left: 20px;
+    font-family: 'Open Sans', sans-serif;
+font-size: 15px;
+padding-top: 3px;
+cursor: pointer;
+
+}
+.pindata3
+{
+    padding-left: 20px;
+    font-family: 'Open Sans', sans-serif;
+font-size: 15px;
+padding-top: 4px;cursor: pointer;
+
+}
+.pindata2
+{
+    padding-left: 20px;
+    font-family: 'Open Sans', sans-serif;
+font-size: 15px;
+padding-top: 4px;cursor: pointer;
+
+}
+
+.seggestion_date
+{
+    font-size: 12px;
+}
+.full_form
+{
+    display: flex;
+}
+
+
+
+.contact_us_form2
+{
+    background-color: #ffffff;
+    height: 560px;
+    width: 900px;
+    padding-left: 20px;
+    margin-top: 90px;
+    color: #000000;
+
+}
+.side2_contact
+{
+    font-size: 39px;
+    font-weight: bolder;
+}
+.first_row
+{
+    display: flex;
+    padding-top: 20px;
+}
+.fullnmae
+{
+    font-weight: bolder;
+    font-size: 16px;
+}
+.full_inpu{
+    border-bottom:2px solid #000000;
+    border-right:none;
+    border-left:none;
+    border-top:none;
+    width: 300px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+
+
+}
+.fullna31
+{
+    margin-left: 100px;
+}
+.sub_inpu
+{
+    border-bottom:2px solid #000000;
+    border-right:none;
+    border-left:none;
+    border-top:none;
+    width: 700px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+
+
+}
+.left_data
+{
+    margin-top: 20px;
+}
+.message12
+{
+    font-weight: bolder;
+    font-size: 16px;
+    margin-top: 15px;
+}
+.textmsg
+{
+    margin-top: 10px;
+    resize: none;
+    padding-left: 5px;
+    padding-top: 5px;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+
+
+
+}
+
+
+.skills_btn2
+{
+    background-color: #ff2e58;
+    border: none;
+    width: 140px;
+    height: 40px;
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+    transition: all;
+    transition-duration: 1s;
+    box-shadow: 1px 1px 5px #ff2e58;
+
+}
+.side1212
+{
+    margin-left: 20px;
+}
+
+.skills_btn2:hover
+{
+    background-color: #000000;
+    color: white;
+    box-shadow: 1px 1px 10px #000000,1px 1px 10px #000000;
+
+}
+
+/* ##########################################################################
+######################################################################### */
+/* ----------------------six footer secton PAGE ------------ */
+.footer_section
+{
+    background-color:#ff2e58;
+    color: rgb(255, 253, 253);
+    height: 75vh;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 30px;
+}
+.footdt
+{
+    width: 400px;
+    color: #ffffff;
+    font-size: 13px;
+}
+.first_foot
+{
+    padding-top: 20px;
+}
+.footerfull
+{
+    display: flex;
+}
+
+.skills_btn23
+{
+    background-color: #000000;
+    border: none;
+    width: 140px;
+    height: 40px;
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+    transition: all;
+    transition-duration: 1.5s;
+    box-shadow: 1px 1px 5px #000000;
+    border-radius: 5px;
+
+}
+
+
+.skills_btn23:hover
+{
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    box-shadow: 1px 1px 20px #000000;
+
+}
+.directlink
+{
+    padding-top: 20px;
+    margin-left:15px;
+
+}
+.links_dirct
+{
+    font-size: 18px;
+}
+.linkslast a
+{
+    display:block;
+    text-decoration: none;
+    color: white;
+    padding-top: 14px;
+}
+
+
+
+.directlink2
+{
+    padding-top: 20px;
+    margin-left:85px;
+}
+
+.footdt2
+{
+    padding-top: 26px;
+    margin-left: 40px;
+    width: 400px;
+    color: #ffffff;
+    font-size: 13px;
+}
+
+
+
+.linkslast2 a
+{
+    display:block;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-left: 40px;
+    margin-top: 14px;
+  
+}
+.spanstylefooter
+{
+    font-weight: bolder;
+    color: #000000;
+}
+
+.socialicons
+{
+    margin-top: 70px;
+    margin-left: 560px;
+    
+}
+.socialicons img
+{
+    margin-left: 20px;
+    cursor: pointer;
+}
+.copywrite
+{
+    margin-top: 20px;
+    text-align: center;
+  
+}
+.copytext
+{
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.dark
+{
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 5px rgb(0, 0, 0);
+}
+
+.datadark1
+{
+    font-weight: bolder;
+    color: #fff8f8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
